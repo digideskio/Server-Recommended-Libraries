@@ -2,10 +2,10 @@
 The objective of this document is to reach consensus of coding convention, useful gems and standard libraries that we (server team) use everyday. The reason is that once we ALL are familiar with the adopted libraries, we can help/cover each other. The list will be kept update-to-date with the latest version of library. Therefore, if you want to do some feature X, you should look for the recommended gems described below. The list is not complete, and thus please help fill out where necessary. Please also link to github too
 
 ## Table of Contents
-* [Language Coding Conventions](https://github.com/nlds90/Server-Library-Standardization)  
+* [Language Coding Conventions](https://github.com/nlds90/Server-Library-Standardization/blob/master/LANGUAGE_CODING_CONVENTIONS.md)  
 * [Project Technical Conventions](#project-technical-conventions)  
 * [Project Structure](#project-structure)  
-* [Third Party Libraries](#third-party-libraries)  
+* [Third Party Libraries](#https://github.com/nlds90/Server-Library-Standardization/blob/master/THIRD_PARTY_LIBRARIES.md)  
 * [Server Setup Checklist](#server-setup-checklist)  
 * [Production Environment](#production-environment)  
 * [Reference](#reference)  
