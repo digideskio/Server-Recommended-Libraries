@@ -5,10 +5,10 @@ The objective of this document is to reach consensus of coding convention, usefu
 * [Language Coding Conventions](https://github.com/nlds90/Server-Library-Standardization/blob/master/LANGUAGE_CODING_CONVENTIONS.md)  
 * [Project Technical Conventions](#project-technical-conventions)  
 * [Project Structure](#project-structure)  
-* [Third Party Libraries](#https://github.com/nlds90/Server-Library-Standardization/blob/master/THIRD_PARTY_LIBRARIES.md)  
+* [Third Party Libraries](https://github.com/nlds90/Server-Library-Standardization/blob/master/THIRD_PARTY_LIBRARIES.md)  
 * [Server Setup Checklist](#server-setup-checklist)  
 * [Production Environment](#production-environment)  
-* [Reference](#reference)  
+* [References](#references)  
 
 ### Project Technical Conventions
 * You should use rvm, with latest rails and stable ruby version   
@@ -20,7 +20,7 @@ The objective of this document is to reach consensus of coding convention, usefu
 * __app__ : organizes your application components(include controllers, assets, helpers, models, views, ...)
   * __controllers__ : controller classes handle web request
   * __models__ : classes which model and wrap data stored in our application's database (backend business logic)
-      * __concerns__ : classes which build modules intended for mixins, useful to refactor fat model **[view more](http://engineering.appfolio.com/2013/06/17/ruby-mixins-activesupportconcern/)** 
+      * __concerns__ : classes which build modules intended for mixins, useful to refactor fat model **[more](http://engineering.appfolio.com/2013/06/17/ruby-mixins-activesupportconcern/)** 
   * __helpers__ : classes which has any helper methods to assist views and controllers
   * __views__ : all templates which we use to fill in with data to render for clients
       * __layouts__ : template files which use to layout applications.(Common use: header, footer, ...)
