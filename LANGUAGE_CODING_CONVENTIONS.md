@@ -349,7 +349,7 @@ end
 
 class Entry < ActiveRecord::Base
   scope :published, ->{ where(published: true) }
-  scope :from_time, ->(time){ where(“updated_at > ?”, time) }
+  scope :from_time, ->(time){ where("updated_at > ?", time) }
 end
 ```
 * Prefer __has_many :through__ to __has_and_belongs_to_many__. Using has_many :through allows additional attributes and validations on the join model
