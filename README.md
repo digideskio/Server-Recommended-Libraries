@@ -61,3 +61,12 @@ The objective of this document is to reach consensus of coding convention, usefu
         b. git remote add production git@heroku.com:<your-app-here>.git
         c. git config heroku.remote staging
     3. Check your environment/app when you do migration
+
+### Production Environment
+* Must have add ons to add to production
+  * i.e papertrail for Heroku, new relic
+  * pgbackup for Heroku to backup data
+
+### References
+* [Love your lib directory](http://reefpoints.dockyard.com/ruby/2012/02/14/love-your-lib-directory.html)
+* [Ruby style guide](https://github.com/bbatsov/ruby-style-guide) & [another ruby style](https://github.com/chneukirchen/styleguide/blob/master/RUBY-STYLE)
