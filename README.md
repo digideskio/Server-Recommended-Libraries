@@ -53,6 +53,9 @@ The objective of this document is to reach consensus of coding convention, usefu
     1. Are you not the only one who has access to this server?
     2. Keep a copy of AWS vm keypair (ec2) with PM at least
     3. Open necessary ports only (22, 80)
+    4. Install new relic and air brake
+    5. Keep your database port inaccessible if you install database locally
+
     
 ##### Heroku
     1. Ownership of app (heroku) should belong to company’s account
@@ -61,11 +64,16 @@ The objective of this document is to reach consensus of coding convention, usefu
         b. git remote add production git@heroku.com:<your-app-here>.git
         c. git config heroku.remote staging
     3. Check your environment/app when you do migration
+    4. Check your Procfile for web, worker, clock
+    5. Check your application server (don't use webrick; instead use unicorn/puma)
+    6. Check your postgresql database from Heroku. You should not use dev plan for production
 
 ### Production Environment
-* Must have add ons to add to production
-  * i.e papertrail for Heroku, new relic
-  * pgbackup for Heroku to backup data
+* Must have add-ons to add to production
+  * __papertrail__: for logging service
+  * __new relic__: app monitor
+  * __airbrake__: error notification for fast app development
+  * __pgbackup__: backup data
 
 ### References
 * [Love your lib directory](http://reefpoints.dockyard.com/ruby/2012/02/14/love-your-lib-directory.html)
