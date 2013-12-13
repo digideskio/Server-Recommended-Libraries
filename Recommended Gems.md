@@ -27,6 +27,7 @@
 | Push Notification | [urbanairship](https://github.com/groupon/urbanairship)
 | Rails   | 4.0.x | 3.2 | 3.x is only for legacy projects
 | Ruby    | 2.0.0 | 1.9.3, jruby
+| Assets / Javascript / CSS    | [rails-assets](https://rails-assets.org/) | | This will unify the library we use like bower
 | Security Check | [brakeman](https://github.com/presidentbeef/brakeman)
 | Seed Data | faker
 | Setting | [rails-setting-cached](https://github.com/huacnlee/rails-settings-cached)
