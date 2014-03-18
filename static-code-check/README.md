@@ -15,7 +15,7 @@ Currently we are going to use two types of check:
 
 If you are using sublime, probably you are using tab by default. See below image:
 
-![Tab vs Space](http://grab.by/vefC)
+![Tab vs Space](https://dl.dropboxusercontent.com/u/358323/screenshots/work/server-recommendation-gems/tab-vs-space.png)
 
 You can switch between tab and space, but you may want to default tab to space. Go to `Preferences` > `Settings - User` and use below settings:
 
