@@ -5,10 +5,10 @@ Eventually we want to have a uniform coding style so that you don't have to hear
 
 
 ## Code Check Tools ##
-Currently we are going to use two types of check:
+There are many available tools to check the code styling, convention and lint
 
 1. [Ruboto Style Check](https://github.com/bbatsov/rubocop): check general Ruby code style
-2. [Ruby Lint Check](https://github.com/YorickPeterse/ruby-lint): check semantic
+2. [Rails Best Practices](https://github.com/railsbp/rails_best_practices): check conventional Rails styling
 
 ## Useful Tips ##
 ### Sublime Space vs Tab ###
@@ -41,4 +41,24 @@ If you want to have a specific setting on file type (e.g. say Ruby), you can ope
 	"translate_tabs_to_spaces": true
 }
 ```
+
+### Sublime plugin for Rubocop ###
+
+You can install plugin of Rubocop so that it can highlight in real-time. First, you need to install [Sublime Package Control](https://sublime.wbond.net/installation). Once installed, you can look for package manager by `shift + command + p` > look for `Package Control: Install Package` > type `Rubocop`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
