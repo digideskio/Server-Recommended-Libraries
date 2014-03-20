@@ -46,7 +46,24 @@ If you want to have a specific setting on file type (e.g. say Ruby), you can ope
 
 You can install plugin of Rubocop so that it can highlight in real-time. First, you need to install [Sublime Package Control](https://sublime.wbond.net/installation). Once installed, you can look for package manager by `shift + command + p` > look for `Package Control: Install Package` > type `Rubocop`
 
+#### Key binding ####
 
+Once you install sublime plugin for Rubocop, it will automatically check text view and mark it the warnings. If you don't want it to mark, you can disable it by `Preferences` > `Package Settings` > `RuboCop` > `Settings - User`. From you can decide if you want to enable/disable this feature by default.
+
+```javascript
+{
+	"mark_issues_in_view": false // disable by default
+}
+```
+
+You can also use key binding to toggle this setting on the fly. `Preferences` > `Package Settings` > `RuboCop` > `Key Bindings - User`.
+
+```javascript
+[
+	// you can set any keys you want. In this case, I use Command + Option + Shift + r
+    { "keys": ["super+alt+shift+r"], "command": "rubocop_pause_toggle" }
+]
+```
 
 
 
