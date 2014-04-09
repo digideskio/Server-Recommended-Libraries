@@ -46,7 +46,7 @@ If you want to have a specific setting on file type (e.g. say Ruby), you can ope
 
 You can install plugin of Rubocop so that it can highlight in real-time. First, you need to install [Sublime Package Control](https://sublime.wbond.net/installation). Once installed, you can look for package manager by `shift + command + p` > look for `Package Control: Install Package` > type `Rubocop`
 
-#### Key binding ####
+#### Key Binding ####
 
 Once you install sublime plugin for Rubocop, it will automatically check text view and mark it the warnings. If you don't want it to mark, you can disable it by `Preferences` > `Package Settings` > `RuboCop` > `Settings - User`. From you can decide if you want to enable/disable this feature by default.
 
@@ -66,9 +66,16 @@ You can also use key binding to toggle this setting on the fly. `Preferences` > 
 ```
 
 
+### Atom ###
+You can use [Atom](https://atom.io/) edit if you want. Rubocop also has plugin for this. 
 
+#### Plugin Installation ####
 
+Go go `Atom` > `Preference` > `Packages` > search for `Rubocop` > install `Policeman Rubocop`.
 
+#### Usage ####
+
+Default key binding to toggle Rubocop is `Control` + `Option` + `L`.
 
 
 
