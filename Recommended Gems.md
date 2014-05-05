@@ -12,6 +12,7 @@
 | Database| __postgresql__, mysql <br> redis | sqlite <br> riak
 | Debugging | pry, pry-remote, pry-debugger better_errors, binding_of_caller, awesome_print | [debugger](https://github.com/cldwalker/debugger)
 | Email | [letter_opener](https://github.com/ryanb/letter_opener): send out email locally <br> [roadie](https://github.com/Mange/roadie): inline css in email to send out
+| Environment Variables | [dotenv](https://github.com/bkeepers/dotenv)
 | Facebook | [koala](https://github.com/arsduo/koala) | fb_graph
 | File Upload | [paperclip](https://github.com/thoughtbot/paperclip) | carrierwave
 | General Cloud | [fog](https://github.com/fog/fog)
@@ -25,15 +26,16 @@
 | Presenter | draper
 | Profiler | rack-mini-profiler, miniprofiler
 | Push Notification | [urbanairship](https://github.com/groupon/urbanairship)
-| Rails   | 4.0.x | 3.2 | 3.x is only for legacy projects
+| Rails   | 4.1.x | 3.2 | 3.x is only for legacy projects
 | Rerun | [rerun](https://github.com/alexch/rerun)
-| Ruby    | 2.0.0 | 1.9.3, jruby
+| Ruby    | 2.1.1 | 1.9.3, jruby
 | Assets / Javascript / CSS    | [rails-assets](https://rails-assets.org/) | | This will unify the library we use like bower
 | Security Check | [brakeman](https://github.com/presidentbeef/brakeman)
 | Seed Data | faker
 | Setting | [rails-setting-cached](https://github.com/huacnlee/rails-settings-cached)
 | Sitemap | sitemap_generator
 | Template Engine | haml | slim, erb
+| Validation | [themis](https://github.com/TMXCredit/themis)
 | Web Server | unicorn, puma | thin, webrick
 | Web SOAP | [savon](http://savonrb.com/version2/)
 | Worker  | [sidekiq](https://github.com/mperham/sidekiq), [sidekiq-failures](https://github.com/mhfs/sidekiq-failures)| [resque](https://github.com/resque/resque), [delayed_job](https://github.com/collectiveidea/delayed_job)
