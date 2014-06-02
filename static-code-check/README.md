@@ -71,7 +71,7 @@ You can use [Atom](https://atom.io/) edit if you want. Rubocop also has plugin 
 
 #### Plugin Installation ####
 
-Go go `Atom` > `Preference` > `Packages` > search for `Rubocop` > install `Policeman Rubocop`.
+Go go `Atom` > `Preference` > `Packages` > search for `Atom Lint` > install `Policeman Rubocop`.
 
 #### Usage ####
 
